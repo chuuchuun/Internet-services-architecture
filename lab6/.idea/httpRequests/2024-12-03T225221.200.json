@@ -1,0 +1,16 @@
+{
+  "universities": [
+    {
+      "id": "c6f4415b-6cd3-3e2d-b361-769a115a2ca9",
+      "name": "Żołnierz"
+    },
+    {
+      "id": "711c27d4-265b-3576-972b-cfe8f1d92026",
+      "name": "Złodziej"
+    },
+    {
+      "id": "bd5cfdd7-8196-4311-83e1-85bce390a26d",
+      "name": "Testowy"
+    }
+  ]
+}

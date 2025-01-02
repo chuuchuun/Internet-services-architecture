@@ -1,0 +1,45 @@
+@if (university) {
+<app-view-title title="University {{ university.name }}" />
+
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>{{ university.name }}</mat-card-title>
+    <mat-card-subtitle>Location: {{ university.location }}</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-actions>
+    <button mat-button [routerLink]="['/universities', university.id, 'edit']">
+      Edit
+    </button>
+    <button mat-button [routerLink]="['/university']">
+      Show all universities
+    </button>
+  </mat-card-actions>
+</mat-card>
+<br />
+
+<app-view-title title="{{ courses?.courses?.length }} courses" />
+<mat-list>
+  @for (course of courses?.courses; track course.id) {
+  <mat-list-item>
+    <button
+      mat-button
+      [routerLink]="['/universities', university.id, 'courses', course.id]"
+    >
+      {{ course.name }}
+    </button>
+    <button mat-icon-button (click)="deleteCourse(course.id)">
+      <mat-icon>delete</mat-icon>
+    </button>
+  </mat-list-item>
+  <mat-divider />
+  }
+</mat-list>
+
+<button
+  mat-raised-button
+  [routerLink]="['/universities', university.id, 'courses', 'new']"
+>
+  New Course
+</button>
+}
+<app-error-message [message]="message" />

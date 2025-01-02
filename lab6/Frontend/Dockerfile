@@ -1,0 +1,30 @@
+# Stage 1: Build the Angular app
+FROM node:18 AS build
+
+WORKDIR /app
+
+# Install dependencies and build the app
+COPY package*.json ./
+RUN npm install
+
+COPY . .
+RUN npm run build --prod
+
+# Stage 2: Serve the app using NGINX
+FROM nginx:1.21
+
+# Pass API_URL as an environment variable
+ARG API_URL
+ENV API_URL=${API_URL}
+
+# Copy custom NGINX configuration
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
+# Copy the Angular build to NGINX's HTML folder
+COPY --from=build /app/dist/frontend /usr/share/nginx/html
+
+# Expose port 80 for the app
+EXPOSE 80
+
+# Run NGINX
+CMD ["nginx", "-g", "daemon off;"]

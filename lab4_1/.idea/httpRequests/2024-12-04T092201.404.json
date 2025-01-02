@@ -1,0 +1,7 @@
+{
+  "timestamp": "2024-12-04T08:22:01.785+00:00",
+  "status": 404,
+  "error": "Not Found",
+  "message": "Profesja nie istnieje!",
+  "path": "/api/universities/650b9271-7537-466a-849a-a0239e511d71"
+}

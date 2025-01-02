@@ -1,0 +1,20 @@
+{
+  "courses": [
+    {
+      "id": "e68564f2-3e0e-339a-8ea7-6dc3d2bc01bf",
+      "name": "Jan"
+    },
+    {
+      "id": "1f7a7bf5-8268-3503-b9d6-e5e92caa90be",
+      "name": "Paweł"
+    },
+    {
+      "id": "88049cf2-d425-3fa5-a46b-ee35ab9a6f97",
+      "name": "Grzegorz"
+    },
+    {
+      "id": "3e4bc9cc-4fe9-3c1f-88a7-f2f5dd18d441",
+      "name": "Kazimierz"
+    }
+  ]
+}

@@ -1,0 +1,563 @@
+GET http://localhost:8080/api/courses/978d7d6b-de93-3f0f-a961-5627a15b2fc1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-04T092558.200.json
+
+###
+
+GET http://localhost:8080/api/courses
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-04T092539.200.json
+
+###
+
+GET http://localhost:8080/api/universities
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-04T092531.200.json
+
+###
+
+DELETE http://localhost:8081/api/universities/099ec262-1e57-4bec-94f9-5cb320b72334
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+PUT http://localhost:8080/api/universities
+Content-Type: application/json
+Content-Length: 43
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "WSB",
+  "location": "Gdynia"
+}
+
+<> 2024-12-04T092510.201.json
+
+###
+
+GET http://localhost:8081/api/universities
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-04T092505.200.json
+
+###
+
+GET http://localhost:8080/api/universities
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-04T092455.200.json
+
+###
+
+GET http://localhost:8080/api/universities
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-04T092404.200.json
+
+###
+
+DELETE http://localhost:8081/api/universities/833df6c1-0fdb-49c7-8f0b-bc36b5d472b5
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+PUT http://localhost:8080/api/universities
+Content-Type: application/json
+Content-Length: 43
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "WSB",
+  "location": "Gdynia"
+}
+
+<> 2024-12-04T092343.201.json
+
+###
+
+GET http://localhost:8081/api/universities
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-04T092328.200.json
+
+###
+
+GET http://localhost:8080/api/universities
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-04T092322.200.json
+
+###
+
+GET http://localhost:8081/api/universities/650b9271-7537-466a-849a-a0239e511d71
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-04T092201.404.json
+
+###
+
+DELETE http://localhost:8080/api/courses/0c4c36d5-e5bd-4a77-bb20-cce930fefcb4
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+PATCH http://localhost:8080/api/courses/0c4c36d5-e5bd-4a77-bb20-cce930fefcb4
+Content-Type: application/json
+Content-Length: 18
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "credits": 5
+}
+
+<> 2024-12-04T092106.200.json
+
+###
+
+GET http://localhost:8080/api/courses/9be83deb-879f-4f11-9af0-0afaaff11ecc
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-04T092058.404.json
+
+###
+
+GET http://localhost:8080/api/courses/0c4c36d5-e5bd-4a77-bb20-cce930fefcb4
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-04T092055.200.json
+
+###
+
+GET http://localhost:8080/api/courses
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-04T092041.200.json
+
+###
+
+POST http://localhost:8080/api/universities/297d522d-8508-3a3e-8a83-af2083a6fcd1/courses
+Content-Type: application/json
+Content-Length: 49
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Computer Graphics",
+  "credits": 4
+}
+
+<> 2024-12-04T092032.201.json
+
+###
+
+GET http://localhost:8080/api/universities/297d522d-8508-3a3e-8a83-af2083a6fcd1/courses
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-04T092028.200.json
+
+###
+
+GET http://localhost:8080/api/universities
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-04T092016.200.json
+
+###
+
+DELETE http://localhost:8080/api/universities/650b9271-7537-466a-849a-a0239e511d71
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+PATCH http://localhost:8080/api/universities/650b9271-7537-466a-849a-a0239e511d71
+Content-Type: application/json
+Content-Length: 45
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name" : "PJATK",
+  "location": "Sopot"
+}
+
+<> 2024-12-04T092001.200.json
+
+###
+
+GET http://localhost:8080/api/university/8554295e-22c0-4d94-9358-177ccc857b10
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-04T091955.404.json
+
+###
+
+GET http://localhost:8080/api/universities/650b9271-7537-466a-849a-a0239e511d71
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-04T091951.200.json
+
+###
+
+PUT http://localhost:8080/api/universities
+Content-Type: application/json
+Content-Length: 43
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "WSB",
+  "location": "Gdynia"
+}
+
+<> 2024-12-04T091936.201.json
+
+###
+
+GET http://localhost:8080/api/courses
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-04T091934.200.json
+
+###
+
+GET http://localhost:8080/api/universities
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-04T091931.200.json
+
+###
+
+GET http://localhost:8080/api/courses/a71a6832-a0a8-4290-b6f3-16b3f2831631
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-04T090956.200.json
+
+###
+
+GET http://localhost:8080/api/courses
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-04T090939.200.json
+
+###
+
+POST http://localhost:8080/api/universities/297d522d-8508-3a3e-8a83-af2083a6fcd1/courses
+Content-Type: application/json
+Content-Length: 49
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Computer Graphics",
+  "credits": 4
+}
+
+<> 2024-12-04T090935.201.json
+
+###
+
+GET http://localhost:8080/api/universities/297d522d-8508-3a3e-8a83-af2083a6fcd1/courses
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-04T090928.200.json
+
+###
+
+GET http://localhost:8080/api/universities
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-04T090915.200.json
+
+###
+
+DELETE http://localhost:8080/api/universities/71ebf1e4-7c10-4780-9c44-1045c744ec2f
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+PATCH http://localhost:8080/api/universities/71ebf1e4-7c10-4780-9c44-1045c744ec2f
+Content-Type: application/json
+Content-Length: 45
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name" : "PJATK",
+  "location": "Sopot"
+}
+
+<> 2024-12-04T090902.200.json
+
+###
+
+PATCH http://localhost:8080/api/universities/71ebf1e4-7c10-4780-9c44-1045c744ec2f
+Content-Type: application/json
+Content-Length: 25
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "location": "Sopot"
+}
+
+<> 2024-12-04T090845.500.json
+
+###
+
+GET http://localhost:8080/api/university/8554295e-22c0-4d94-9358-177ccc857b10
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-04T090838.404.json
+
+###
+
+GET http://localhost:8080/api/universities/71ebf1e4-7c10-4780-9c44-1045c744ec2f
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-04T090835.200.json
+
+###
+
+PUT http://localhost:8080/api/universities
+Content-Type: application/json
+Content-Length: 43
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "WSB",
+  "location": "Gdynia"
+}
+
+<> 2024-12-04T090824.201.json
+
+###
+
+GET http://localhost:8080/api/courses
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-04T090821.200.json
+
+###
+
+GET http://localhost:8080/api/universities
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-04T090818.200.json
+
+###
+
+GET http://localhost:8080/api/universities/297d522d-8508-3a3e-8a83-af2083a6fcd1/courses
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-03T234626.200.json
+
+###
+
+POST http://localhost:8080/api/universities/297d522d-8508-3a3e-8a83-af2083a6fcd1/courses
+Content-Type: application/json
+Content-Length: 49
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Computer Graphics",
+  "credits": 4
+}
+
+<> 2024-12-03T234623.201.json
+
+###
+
+GET http://localhost:8080/api/universities/297d522d-8508-3a3e-8a83-af2083a6fcd1/courses
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-03T234617.200.json
+
+###
+
+GET http://localhost:8080/api/universities
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-03T234607.200.json
+
+###
+
+DELETE http://localhost:8080/api/universities/e60c2029-4c58-4a2d-b29f-a219f5b3fe42
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+PATCH http://localhost:8080/api/universities/e60c2029-4c58-4a2d-b29f-a219f5b3fe42
+Content-Type: application/json
+Content-Length: 45
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name" : "PJATK",
+  "location": "Sopot"
+}
+
+<> 2024-12-03T234555.200.json
+
+###
+
+PATCH http://localhost:8080/api/universities/e60c2029-4c58-4a2d-b29f-a219f5b3fe42
+Content-Type: application/json
+Content-Length: 25
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "location": "Sopot"
+}
+
+<> 2024-12-03T234532.500.json
+
+###
+
+GET http://localhost:8080/api/university/8554295e-22c0-4d94-9358-177ccc857b10
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-03T234527.404.json
+
+###
+
+GET http://localhost:8080/api/universities/e60c2029-4c58-4a2d-b29f-a219f5b3fe42
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-03T234520.200.json
+
+###
+

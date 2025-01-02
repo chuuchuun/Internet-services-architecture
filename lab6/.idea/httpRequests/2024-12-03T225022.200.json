@@ -1,0 +1,20 @@
+{
+  "universities": [
+    {
+      "id": "c6f4415b-6cd3-3e2d-b361-769a115a2ca9",
+      "name": "Żołnierz"
+    },
+    {
+      "id": "d68ffd8e-e9e6-3191-a4cf-915bca1c5abb",
+      "name": "Aktor"
+    },
+    {
+      "id": "711c27d4-265b-3576-972b-cfe8f1d92026",
+      "name": "Złodziej"
+    },
+    {
+      "id": "bd5cfdd7-8196-4311-83e1-85bce390a26d",
+      "name": "Testowy"
+    }
+  ]
+}

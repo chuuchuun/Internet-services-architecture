@@ -1,0 +1,7 @@
+{
+  "timestamp": "2024-12-03T21:49:02.133+00:00",
+  "path": "/api/universities/711c27d4-265b-3576-972b-cfe8f1d92026",
+  "status": 500,
+  "error": "Internal Server Error",
+  "requestId": "718adf3b-4"
+}

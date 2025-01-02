@@ -1,0 +1,12 @@
+{
+  "courses": [
+    {
+      "id": "8329f510-5520-31b7-ad06-2628c077ddfa",
+      "name": "Computer Science"
+    },
+    {
+      "id": "8f9fd49a-dd41-4d77-86b7-b0887d57e567",
+      "name": "Computer Graphics"
+    }
+  ]
+}

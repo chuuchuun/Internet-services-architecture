@@ -1,0 +1,65 @@
+### Get all universities
+GET http://localhost:8080/api/universities
+
+### Get all courses
+GET http://localhost:8080/api/courses
+
+
+### Create a new university
+PUT http://localhost:8080/api/universities
+Content-Type: application/json
+
+{
+  "name": "WSB",
+  "location": "Gdynia"
+}
+
+### Get a university by UUID
+GET http://localhost:8080/api/universities/71ebf1e4-7c10-4780-9c44-1045c744ec2f
+
+### Get a not existing university
+GET http://localhost:8080/api/university/8554295e-22c0-4d94-9358-177ccc857b10
+
+### Update a university
+PATCH http://localhost:8080/api/universities/71ebf1e4-7c10-4780-9c44-1045c744ec2f
+Content-Type: application/json
+
+{
+  "name" : "PJATK",
+  "location": "Sopot"
+}
+
+### Delete a university
+DELETE http://localhost:8081/api/universities/099ec262-1e57-4bec-94f9-5cb320b72334
+
+### Get all courses of a given university
+GET http://localhost:8080/api/universities/297d522d-8508-3a3e-8a83-af2083a6fcd1/courses
+
+### Create new course with a given university
+POST http://localhost:8080/api/universities/297d522d-8508-3a3e-8a83-af2083a6fcd1/courses
+Content-Type: application/json
+
+{
+  "name": "Computer Graphics",
+  "credits": 4
+}
+
+### Get all courses
+GET http://localhost:8080/api/courses
+
+### Get a course by UUID
+GET http://localhost:8080/api/courses/978d7d6b-de93-3f0f-a961-5627a15b2fc1
+
+### Get a not existing course
+GET http://localhost:8080/api/courses/9be83deb-879f-4f11-9af0-0afaaff11ecc
+
+### Update a course
+PATCH http://localhost:8080/api/courses/b55f456c-9800-4c4e-8c79-83c9f4c616fe
+Content-Type: application/json
+
+{
+  "credits": 5
+}
+
+### Delete a course
+DELETE http://localhost:8080/api/courses/b55f456c-9800-4c4e-8c79-83c9f4c616fe

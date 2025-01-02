@@ -1,0 +1,16 @@
+<app-view-title title="Courses" />
+
+<mat-list>
+  @for (course of courses?.courses; track course.id) {
+  <mat-list-item>
+    <button mat-button [routerLink]="['/courses', course.id]">
+      {{ course.name }}
+    </button>
+    <button mat-icon-button (click)="deleteCourse(course.id)">
+      <mat-icon>delete</mat-icon>
+    </button>
+  </mat-list-item>
+  <mat-divider />
+  }
+</mat-list>
+

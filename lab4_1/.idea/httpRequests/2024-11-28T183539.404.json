@@ -1,0 +1,7 @@
+{
+  "timestamp": "2024-11-28T17:35:39.797+00:00",
+  "status": 404,
+  "error": "Not Found",
+  "message": "University not found",
+  "path": "/api/universities/c6f4415b-6cd3-3e2d-b361-769a115a2ca9/courses"
+}

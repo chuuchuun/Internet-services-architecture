@@ -1,0 +1,7 @@
+{
+  "timestamp": "2024-12-18T09:06:22.463+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "could not prepare statement [Table \"COURSES\" not found (this database is empty); SQL statement:\nselect c1_0.course_id,c1_0.credits,c1_0.name,c1_0.university_id from courses c1_0 [42104-224]] [select c1_0.course_id,c1_0.credits,c1_0.name,c1_0.university_id from courses c1_0]; SQL [select c1_0.course_id,c1_0.credits,c1_0.name,c1_0.university_id from courses c1_0]",
+  "path": "/api/courses"
+}

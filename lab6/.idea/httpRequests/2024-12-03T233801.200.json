@@ -1,0 +1,20 @@
+{
+  "courses": [
+    {
+      "id": "978d7d6b-de93-3f0f-a961-5627a15b2fc1",
+      "name": "Art"
+    },
+    {
+      "id": "16d2b386-b203-3b94-8899-6466aaae0b57",
+      "name": "History"
+    },
+    {
+      "id": "50ae99e9-c354-36c2-980e-4b540b0fd104",
+      "name": "Physics"
+    },
+    {
+      "id": "b55f456c-9800-4c4e-8c79-83c9f4c616fe",
+      "name": "Computer Graphics"
+    }
+  ]
+}

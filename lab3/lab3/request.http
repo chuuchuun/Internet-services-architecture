@@ -1,0 +1,77 @@
+# Get all courses
+GET http://localhost:8080/courses/
+Accept: application/json
+
+###
+
+# Get a specific course by UUID
+GET http://localhost:8080/courses/a34e51a5-6ab4-4222-8b14-c3f284494b26/
+Accept: application/json
+
+###
+
+# Create a new course for a specific university
+POST http://localhost:8080/universities/c41bbbc0-5eb8-4579-b486-4d963cb17195/courses/
+Content-Type: application/json
+
+{
+  "courseName": "Computer Science 101",
+  "credits": 3
+}
+
+###
+
+# Update a specific course by UUID
+PUT http://localhost:8080/courses/869b3d55-a3c2-4780-95b0-502d443c1d1f/
+Content-Type: application/json
+
+{
+  "courseName": "Advanced Computer Science",
+  "credits": 4
+}
+
+###
+
+# Delete a specific course by UUID
+DELETE http://localhost:8080/courses/80bfc619-9f86-4eb1-a431-ff5dc36fbbb5/
+
+###
+
+# Get all universities
+GET http://localhost:8080/universities/
+Accept: application/json
+
+###
+
+#Create a new university
+POST http://localhost:8080/universities/
+Content-Type: application/json
+
+{
+  "name": "Wyzsza Szkola Bankowa",
+  "location": "Gdansk"
+}
+###
+
+# Update a specific university by UUID
+PUT http://localhost:8080/universities/07fec0ae-29a5-4f1f-b021-28504a780de5/
+Content-Type: application/json
+
+{
+  "name": "Uniwersytet Jagiellonski",
+  "location": "Krakow"
+}
+
+###
+# Get courses from a specific university by UUID
+GET http://localhost:8080/universities/2e7ad9e4-0596-4a71-a6bc-b0cb14486125/courses/
+Accept: application/json
+
+###
+#Delete a specific university by UUID
+DELETE http://localhost:8080/universities/2b8cb9e2-e046-47be-8202-99675806e0a9/
+
+
+
+
+

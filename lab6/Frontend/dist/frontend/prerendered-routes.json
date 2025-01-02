@@ -1,0 +1,7 @@
+{
+  "routes": [
+    "/courses",
+    "/universities",
+    "/universities/new"
+  ]
+}

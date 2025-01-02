@@ -1,0 +1,7 @@
+{
+  "timestamp": "2024-12-03T22:45:32.471+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "not-null property references a null or transient value : com.example.UniversityService.entity.University.name",
+  "path": "/api/universities/e60c2029-4c58-4a2d-b29f-a219f5b3fe42"
+}

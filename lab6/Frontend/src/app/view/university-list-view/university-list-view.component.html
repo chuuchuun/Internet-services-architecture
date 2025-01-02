@@ -1,0 +1,19 @@
+<app-view-title title="Universities" />
+
+<mat-list>
+  @for (university of universities?.universities; track university.id) {
+  <mat-list-item>
+    <button mat-button [routerLink]="['/universities', university.id]">
+      {{ university.name }}
+    </button>
+    <button mat-icon-button (click)="deleteUniversity(university.id)">
+      <mat-icon>delete</mat-icon>
+    </button>
+  </mat-list-item>
+  <mat-divider />
+  }
+</mat-list>
+
+<button mat-raised-button [routerLink]="['/universities', 'new']">
+  New University
+</button>

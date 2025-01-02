@@ -1,0 +1,12 @@
+{
+  "universities": [
+    {
+      "id": "5fa68a02-fc9e-3cc3-a2c6-3bee0d770b24",
+      "name": "Politechnika Gdańska"
+    },
+    {
+      "id": "68572084-4b85-30ef-9c38-7a2e3b4fb4c4",
+      "name": "Uniwersytet Warszawski"
+    }
+  ]
+}

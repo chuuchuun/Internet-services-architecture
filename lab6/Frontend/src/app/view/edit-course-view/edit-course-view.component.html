@@ -1,0 +1,11 @@
+@if (course && university) {
+<app-view-title
+  title="Edit course {{ course.name }} at university {{ university.name }}"
+/>
+
+<app-course-form
+  [course]="course"
+  [message]="message"
+  (submit)="onSubmit()"
+/>
+} @else {<app-error-message [message]="message" />}

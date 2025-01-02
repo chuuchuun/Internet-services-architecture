@@ -1,0 +1,7 @@
+{
+  "timestamp": "2024-12-03T22:33:42.016+00:00",
+  "path": "/api/universities",
+  "status": 500,
+  "error": "Internal Server Error",
+  "requestId": "af1b9967-3"
+}

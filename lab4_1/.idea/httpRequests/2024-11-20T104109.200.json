@@ -1,0 +1,16 @@
+{
+  "courses": [
+    {
+      "id": "183024e0-2a0e-4942-be4f-31580ce67055",
+      "name": "Art"
+    },
+    {
+      "id": "77a541c6-3724-45d4-a1c1-9e8a3fb9b715",
+      "name": "History"
+    },
+    {
+      "id": "24f87db8-53d4-42b1-98fa-70a8c70238d9",
+      "name": "Physics"
+    }
+  ]
+}
